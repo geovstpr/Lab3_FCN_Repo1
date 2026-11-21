@@ -28,10 +28,17 @@
     a {
       color: #0366d6;
     }
+
+    code {
+      background-color: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+    }
   </style>
 </head>
 <body>
-  <h1>Guía básica de Git</h1>
+  <h1>Guía básica de Git y Github</h1>
 
   <h2>Geovanny Vargas Salas</h2>
 
@@ -44,12 +51,31 @@
     ordenado de todo el desarrollo.
   </p>
 
+  <h3>¿Qué es GitHub y para qué se utiliza?</h3>
+  <p>
+    GitHub es una plataforma en línea que permite alojar repositorios de código
+    y gestionar proyectos de desarrollo de software utilizando Git. Facilita
+    el almacenamiento de proyectos en la nube, el trabajo colaborativo entre
+    desarrolladores y el seguimiento de los cambios realizados en el código.
+    También permite compartir proyectos, revisar contribuciones de otros
+    desarrolladores, reportar errores y gestionar nuevas funcionalidades.
+  </p>
+
   <h3>Ventajas de utilizar Git</h3>
   <ul>
     <li>Mantiene un historial completo de los cambios de cada archivo.</li>
     <li>Facilita el trabajo colaborativo entre varias personas.</li>
     <li>Permite crear ramas para probar nuevas ideas sin afectar el código principal.</li>
     <li>Funciona de forma local, por lo que no depende de una conexión a internet.</li>
+  </ul>
+
+  <h3>Comandos básicos de Git</h3>
+  <ul>
+    <li><code>git init</code>: crea un repositorio nuevo en la carpeta actual.</li>
+    <li><code>git status</code>: muestra qué archivos han cambiado y cuáles están listos para guardarse.</li>
+    <li><code>git add</code>: prepara los cambios de uno o varios archivos para el siguiente commit.</li>
+    <li><code>git commit -m "mensaje"</code>: guarda en el historial los cambios preparados, con un mensaje que los describe.</li>
+    <li><code>git push</code>: envía los commits locales al repositorio remoto, por ejemplo en GitHub.</li>
   </ul>
 
   <h3>Sitio oficial</h3>
